@@ -4,6 +4,7 @@ import StarshipList from './StarshipList';
 import StarshipPage from './StarshipPage';
 import Planets from './Planets';
 import Films from './Films';
+import Characters from './Characters'
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
         <Route path="/starships/:id" element={<StarshipPage />} />
         <Route path="/planets" element={<Planets />} />
         <Route path="/films" element={<Films />} />
+        <Route path="/Characters" element={<Characters/>} />
       </Routes>
     </main>
   );
